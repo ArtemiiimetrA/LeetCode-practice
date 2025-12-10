@@ -3,8 +3,8 @@
 using LeetCode.Core.Entities;
 using LeetCode.Core.Problems;
 
-var task = new P2_AddTwoNumbers();
+var task = new P3_LongestSubstringWithoutRepeatingCharacters();
 
-var result = task.AddTwoNumbers(ListNode.BuildFromArray([9,9,9,9,9,9,9]), ListNode.BuildFromArray([9,9,9,9]));
+var result = task.LengthOfLongestSubstring("pwwkew");
 
 Console.WriteLine(result.ToString());
