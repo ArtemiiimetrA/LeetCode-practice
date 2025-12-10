@@ -1,12 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using LeetCode.Core.Entities;
 using LeetCode.Core.Problems;
 
-var task = new P49_GroupAnagrams();
+var task = new P2_AddTwoNumbers();
 
-var result = task.GroupAnagrams([""]);
+var result = task.AddTwoNumbers(ListNode.BuildFromArray([9,9,9,9,9,9,9]), ListNode.BuildFromArray([9,9,9,9]));
 
-foreach (var lst in result)
-{
-    Console.WriteLine($"[{string.Join(", ", lst)}]");
-}
+Console.WriteLine(result.ToString());
