@@ -7,4 +7,4 @@ var task = new P3_LongestSubstringWithoutRepeatingCharacters();
 
 var result = task.LengthOfLongestSubstring("pwwkew");
 
-Console.WriteLine(result.ToString());
+Console.WriteLine(result.ToString()); 
