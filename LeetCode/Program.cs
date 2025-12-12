@@ -5,8 +5,8 @@ using LeetCode.Core.Problems;
 
 var tree = TreeNode.BuildFromArray([1, null, 2, 3]);
 
-var task = new P171_ExcelSheetColumnNumber();
+var task = new P203_RemoveLinkedListElements();
 
-var result = task.TitleToNumber("ABA");
+var result = task.RemoveElements( ListNode.BuildFromArray([]), 7);
 
 Console.WriteLine(result); 
