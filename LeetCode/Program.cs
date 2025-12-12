@@ -3,8 +3,10 @@
 using LeetCode.Core.Entities;
 using LeetCode.Core.Problems;
 
-var task = new PЗ3531_CountCoveredBuildings();
+var tree = TreeNode.BuildFromArray([1, null, 2, 3]);
 
-var result = task.CountCoveredBuildings(3, [[1,2],[2,2],[3,2],[2,1],[2,3]]);
+var task = new P171_ExcelSheetColumnNumber();
+
+var result = task.TitleToNumber("ABA");
 
 Console.WriteLine(result); 
